@@ -26,6 +26,7 @@ function Fashion() {
                 title="Mens Shoe"
                 price={3000}
                 rating={4}
+                quantity= {1}
                 image ={f1}
             />
             <Block
@@ -33,6 +34,7 @@ function Fashion() {
                 title="Mens Shoe"
                 price={1000}
                 rating={4}
+                quantity= {1}
                 image ={f2}
             />
              <Block
@@ -41,6 +43,7 @@ function Fashion() {
                 price={1500}
                 rating={4}
                 image ={f5}
+                quantity= {1}
             />
             </div>
             <div className="home_row">
@@ -50,12 +53,14 @@ function Fashion() {
                 price={2500}
                 rating={4}
                 image ={f3}
+                quantity= {1}
             />
             <Block
                 id={14}
                 title="Mens Tshirt"
                 price={1000}
                 rating={4}
+                quantity= {1}
                 image ={f4}
             />
             </div>

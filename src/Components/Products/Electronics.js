@@ -19,6 +19,7 @@ function Electronics() {
                 title="Alexa"
                 price={1000}
                 rating={4}
+                quantity= {1}
                 image={alexa}
             />
             <Block
@@ -26,6 +27,7 @@ function Electronics() {
                 title="Watch"
                 price={5000}
                 rating={4}
+                quantity= {1}
                 image={watch}
             />
             <Block
@@ -52,6 +54,7 @@ function Electronics() {
                 title="Laptop"
                 price={70000}
                 rating={4}
+                quantity= {1}
                 image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm7wiBEWgD9xKfO21Iix2uqH1L08rkO19dLg&usqp=CAU"
             />
             </div>
