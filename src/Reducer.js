@@ -9,7 +9,7 @@ export const initialState = {
 
 
   const reducer = (state, action) => {
-    console.log(action);
+    // console.log(action);
     switch (action.type) {
       case "ADD_TO_BASKET":
         return {
@@ -23,16 +23,38 @@ export const initialState = {
           cartdetail : [ action.item],
         };
         case "increase_quantity":
-          console.log(action.item.price);
-          return {
-            ...state,
-            basket: state.basket.map(product =>
-              product.id === action.id
-                ? {...product, quantity: product.quantity + 1,product.price}
-                : product,
-            ),
-        };
+          // console.log(action.item.price);
+        // console.log(action.item.id)
+          let newBaske = [...state.basket];
 
+
+
+          // console.log(newBaske);
+          newBaske.map((ele)=>{
+            // console.log(ele.id,action);
+            
+            if(ele.id==action.item.id){
+              // console.log(ele);
+              ele.quantity=ele.quantity+1
+              ele.price = ele.price*ele.quantity
+            }
+          })
+          console.log("see above",newBaske)
+          
+        //   return {
+        //     ...state,
+        //     basket: state.basket.map(
+        //       product =>
+        //       product.id === action.item.id
+        //         ? {...product, product: {quantity: product.quantity + 1,
+        //           price:action.price*action.quantity
+        //         }}
+        //         : product,
+
+        //     ),
+            
+        // };
+          return { ...state, basket: newBaske };
         case "REMOVE_FROM_BASKET":
           let newBasket = [...state.basket];
           const index = state.basket.findIndex(
