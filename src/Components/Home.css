@@ -1,0 +1,206 @@
+
+/* body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+} */
+
+.u1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.login {
+  padding :20px;
+  border-radius: 99px;
+  background-color: #ff4c68;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 1% 10% 1%;
+}
+
+
+#testimonials {
+  background:linear-gradient(transparent,rgba(241, 132, 113, 0.979));
+}
+
+
+.testimonial-text {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #fc556e;
+}
+
+.testimonial-image {
+  width: 33%;
+  border-radius: 100%;
+  margin: 20px;
+  transition: width 1s, height 1s;
+}
+.testimonial-image:hover {
+  width: 40%;
+}
+
+.basket_count {
+  font-weight: 700;
+  margin: 0 5px ;
+}
+
+  
+.checkoutProduct {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.checkout_prod{
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.checkoutProduct_image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+  box-shadow: 10px 10px 5px gray;
+}
+
+.checkoutProduct_info {
+  padding: 20px;
+  margin-left:400px ;
+  font-size: 30px;
+  font-weight: 800;
+  
+}
+
+.checkoutProduct_title {
+  font-size: 17px;
+  
+  /* font-weight: 600; */
+}
+
+.checkoutProduct_price {
+  font-weight: 500;
+  margin: 3px 0px;
+}
+
+.checkout_prod > button {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  outline: none;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+
+.checkout_prod > button:hover {
+  box-shadow: 0 0 3pt 1pt orange;
+  background-color: darkorange;
+}
+
+.btn-count{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  font-size: 30px ;
+  font-weight: 800;
+  cursor: pointer;
+}
+.btn-count > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  outline: none;
+  border-radius: 100px;
+  width: 30px;
+}
+.btn__count{
+  border-radius: 0px !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 50px !important;
+  
+  color:purple;
+}
+
+.cart_border{
+  margin: 0px 20px 20px 0px;
+  border:1px solid black;
+  /* border: 20px solid rgba(0, 0, 0, 0.05); */
+  box-shadow: 5px 10px 5px gray;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

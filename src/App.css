@@ -1,0 +1,41 @@
+* app{
+  margin:0px;
+}
+
+.carticon{
+  color: white;
+
+}
+.carticon:hover{
+  text-decoration: none !important;
+  
+}
+
+.navLink{
+  margin-left: 300px;
+  color: white;
+}
+.navbar-dark {
+  /* background-color:rgba(0, 0, 0, 0.9); */
+  background-color:#FF4C68;
+  color: white;
+ 
+}
+.text {
+  color: white;
+  font-size: 25px;
+  margin-left: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.text:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.basket_count {
+  font-weight: 700;
+
+  margin: 0 5px ;
+}
