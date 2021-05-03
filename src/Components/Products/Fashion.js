@@ -41,7 +41,7 @@ function Fashion() {
                 id={15}
                 title="Slippers"
                 price={1500}
-                rating={4}
+                rating={3}
                 image ={f5}
                 quantity= {1}
             />
@@ -51,7 +51,7 @@ function Fashion() {
                 id={13}
                 title="Mens Tshirt"
                 price={2500}
-                rating={4}
+                rating={5}
                 image ={f3}
                 quantity= {1}
             />

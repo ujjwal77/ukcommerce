@@ -36,11 +36,11 @@ function Header() {
                   <span className='hstyle'> Fashion</span> 
                   </NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink className="nav-link text" to="/Itemdetail">
                   <span className='hstyle'> Detail</span> 
                   </NavLink>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
                   <NavLink  className="nav-link text" to="/Cart">
                   <span className='hstyle'><ShoppingBasketIcon /><span className="basket_count">{basket.length===0?'':basket.length}</span></span>  

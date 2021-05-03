@@ -26,7 +26,7 @@ function Electronics() {
                 id={2}
                 title="Watch"
                 price={5000}
-                rating={4}
+                rating={5}
                 quantity= {1}
                 image={watch}
             />
@@ -45,7 +45,7 @@ function Electronics() {
                 id={4}
                 title="Earphone"
                 price={1000}
-                rating={4}
+                rating={3}
                 quantity= {1}
                 image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXDqlh7f9HHcthtqD1ttr18RuusCELfjRB38PVx7YotTABl68R2-K2vnXiA3J3d7wN7D8eGxU&usqp=CAc"
             />
@@ -53,7 +53,7 @@ function Electronics() {
                 id={5}
                 title="Laptop"
                 price={70000}
-                rating={4}
+                rating={3}
                 quantity= {1}
                 image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm7wiBEWgD9xKfO21Iix2uqH1L08rkO19dLg&usqp=CAU"
             />

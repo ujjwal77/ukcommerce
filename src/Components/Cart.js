@@ -55,6 +55,7 @@ function Cart() {
           {basket.map((item,index)=>(
             <Checkout
                 key={index}
+                item={item}
                 id={item.id}
                 title={item.title}
                 image={item.image}
@@ -66,11 +67,13 @@ function Cart() {
       <hr/>
       <div className="Total">
         <div className="blank"></div>
-        <h5 className="Subtotal">Subtotal ({basket.length} items): $ {cartTotal(basket)}<br/>
+        <h5 className="Subtotal">Subtotal: $ {cartTotal(basket)}<br/>
         Delivery Charges :  $ 40 <br/><hr/>
         Total Charges : <strong className="Subtotal1"> $ {cartTotal(basket)+40} </strong></h5>
       </div>
+      
       </div>
+      
     )}
     
     </div>
